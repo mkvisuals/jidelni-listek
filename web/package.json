@@ -1,0 +1,48 @@
+{
+  "name": "jidelni-listek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkvisuals/jidelni-listek.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkvisuals/jidelni-listek/issues"
+  },
+  "homepage": "https://github.com/mkvisuals/jidelni-listek#readme",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "dateformat": "^3.0.3",
+    "querystring": "^0.2.0",
+    "vue": "^2.6.10",
+    "vue2-datepicker": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.12.0",
+    "postcss": "^7.0.17",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "sass-loader": "^7.1.0",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
